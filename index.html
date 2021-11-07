@@ -17,51 +17,82 @@
       <div class="blind-div">
         <!-- start editor header -->
         <aside class="editor--header">
-          <button class="btn"type="button" data-element="bold">
+          <button class="btn" type="button" data-element="bold">
             <i class="icon fas fa-bold"></i>
           </button>
 
-          <button class="btn"type="button" data-element="italic">
+          <button class="btn" type="button" data-element="italic">
             <i class="icon fas fa-italic"></i>
           </button>
 
-          <button class="btn"type="button" data-element="underline">
+          <button class="btn" type="button" data-element="underline">
             <i class="icon fas fa-underline"></i>
           </button>
 
-          <button class="btn"type="button" data-element="list">
+          <button class="btn" type="button" data-element="insertUnorderedList">
             <i class="icon fas fa-list"></i>
           </button>
 
-          <button class="btn"type="button" data-element="list-ol">
+          <button class="btn" type="button" data-element="insertOrderedList">
             <i class="icon fas fa-list-ol"></i>
           </button>
 
-          <button class="btn"type="button" data-element="link">
+          <button class="btn" type="button" data-element="createLink">
             <i class="icon fas fa-link"></i>
           </button>
 
-          <button class="btn"type="button" data-element="align-left">
+          <button class="btn" type="button" data-element="justifyLeft">
             <i class="icon fas fa-align-left"></i>
           </button>
 
-          <button class="btn"type="button" data-element="align-center">
+          <button class="btn" type="button" data-element="justifyCenter">
             <i class="icon fas fa-align-center"></i>
           </button>
 
-          <button class="btn"type="button" data-element="aling-left">
-            <i class="icon fas fa-align-left"></i>
+          <button class="btn" type="button" data-element="justifyRight">
+            <i class="icon fas fa-align-right"></i>
           </button>
 
-          <button class="btn"type="button" data-element="justifyFull">
+          <button class="btn" type="button" data-element="justifyFull">
             <i class="icon fas fa-align-justify"></i>
           </button>
 
-          <button class="btn"type="button" data-element="image">
+          <button class="btn" type="button" data-element="insertImage">
             <i class="icon fas fa-image"></i>
           </button>
         </aside>
-        <textarea class="editor--content" contenteditable="true"></textarea>
+        <section class="editor--content" contenteditable="true">
+          <div align="center">README</div>
+          <br>
+          <br>
+          <p>Este editor está um pouco bugado, mas afinal de contas ele é bem iniciante</p>
+          <br>
+          <br>
+          "Não é pelo fato de ser iniciante que ele tem que ser Bugado"<br>
+            By SANTOS, Hamilton
+          <br>
+          <br>
+          <br>
+          Talvez ele não seja um editor muito usavel pelo fato de que o "contenteditable",
+          um atributo do HTML, esteja classificado como obsolento na MDN
+          <br>
+          <br>
+          <br>
+          
+          <p style="color: red;">Meus usos na Raposa de fogo (firefox):</p>
+          
+          <br>
+          <br>
+          As vezes para poder usar as "listas", você vai ter que apertar a tecla "Enter"
+          e depois escolher a lista que desejas usar, a mesma coisa com imagens
+          <br>
+          <br>
+          Para usar links você terá que selecionar o texto e em seguida inserir o link
+          <br>
+          <br>
+          Eu recomendo não usar este Editor de texto para uso profissional, pelo fato de
+          que poderás se irritar
+        </section>
         <!-- the end -->
       </div>
     </section>
@@ -69,6 +100,7 @@
   <!-- end main editor -->
 
   <script src="./public/fontawesome/js/all.min.js"></script>
+  <script src="./src/js/app.js"></script>
 </body>
 
 </html>
